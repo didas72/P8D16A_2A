@@ -459,16 +459,6 @@
       <pos x="1100" y="860"/>
     </visualElement>
     <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>F0</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1600" y="920"/>
-    </visualElement>
-    <visualElement>
       <elementName>Adder8b.dig</elementName>
       <elementAttributes>
         <entry>

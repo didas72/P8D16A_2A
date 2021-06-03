@@ -234,11 +234,11 @@
       <pos x="640" y="660"/>
     </visualElement>
     <visualElement>
-      <elementName>Const</elementName>
+      <elementName>In</elementName>
       <elementAttributes>
         <entry>
-          <string>Value</string>
-          <long>0</long>
+          <string>Label</string>
+          <string>CI</string>
         </entry>
       </elementAttributes>
       <pos x="580" y="660"/>

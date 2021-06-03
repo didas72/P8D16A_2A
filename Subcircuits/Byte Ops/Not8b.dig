@@ -111,7 +111,7 @@
           <string>O0</string>
         </entry>
       </elementAttributes>
-      <pos x="780" y="240"/>
+      <pos x="780" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -121,7 +121,7 @@
           <string>O1</string>
         </entry>
       </elementAttributes>
-      <pos x="780" y="280"/>
+      <pos x="780" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -131,7 +131,7 @@
           <string>O2</string>
         </entry>
       </elementAttributes>
-      <pos x="780" y="320"/>
+      <pos x="780" y="280"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -141,7 +141,7 @@
           <string>O3</string>
         </entry>
       </elementAttributes>
-      <pos x="780" y="360"/>
+      <pos x="780" y="320"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -151,7 +151,7 @@
           <string>O4</string>
         </entry>
       </elementAttributes>
-      <pos x="780" y="400"/>
+      <pos x="780" y="360"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -161,7 +161,7 @@
           <string>O5</string>
         </entry>
       </elementAttributes>
-      <pos x="780" y="440"/>
+      <pos x="780" y="400"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -171,7 +171,7 @@
           <string>O6</string>
         </entry>
       </elementAttributes>
-      <pos x="780" y="480"/>
+      <pos x="780" y="440"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -181,7 +181,7 @@
           <string>O7</string>
         </entry>
       </elementAttributes>
-      <pos x="780" y="200"/>
+      <pos x="780" y="480"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
