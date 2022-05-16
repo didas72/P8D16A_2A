@@ -1,0 +1,59 @@
+
+//Division asm
+
+#org @0x0200 
+
+main:
+	LDA $0x04
+	SVA multArg1
+	LDA $0x02
+	SVA multArg2
+	
+	JSR mult
+	
+hlt:
+	LDL multRetBase
+	JMP hlt
+	
+	HLT
+
+mult:
+	//assumes args in labels
+	PSX
+	PSA
+	
+	//bit count
+	LDX $0x08
+	
+	//reset result
+	SVZR multRetBase
+	SVZR multRetBase +1
+	
+multLoop:
+	LSRM multArg2
+	JCC multNoAdd
+	CCF
+	ADMM multArg1, multRetBase +1
+	
+multNoAdd:
+	RORM multRetBase
+	JCC multNoShiftOverflow
+	RORM multRetBase 
+	INM multRetBase 
+	
+multNoShiftOverflow:
+	DEX
+	JZC multLoop
+	
+	PLA
+	PLX
+	RTS
+	
+	
+//args
+multArg1:
+	#db $0x00
+multArg2:
+	#db $0x00
+multRetBase:
+	#dw $0x0000

@@ -98,12 +98,12 @@
         </entry>
         <entry>
           <string>Data</string>
-          <data>800020400000000,20a000000,1000002008200000,1000002008800000,1002000000000,4000000400000000,
-8000000200000000,1000001000400000,14001001000000</data>
+          <data>800020400000000,20a000000,1000002008200000,1000002008800000,1002000000000
+,4000000400000000,8000000200000000,1000001000400000,14001001000000</data>
         </entry>
         <entry>
           <string>lastDataFile</string>
-          <string>E:\dev\Logic\Digital\Proper Computers\P8D16A_2A\HexFiles\INTmicrocode.hex</string>
+          <file>E:\dev\Logic\Digital\Proper Computers\P8D16A_2A\HexFiles\INTmicrocode.hex</file>
         </entry>
       </elementAttributes>
       <pos x="620" y="220"/>
@@ -484,12 +484,12 @@
       <elementName>Driver</elementName>
       <elementAttributes>
         <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
           <string>Bits</string>
           <int>62</int>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
         </entry>
       </elementAttributes>
       <pos x="940" y="240"/>
@@ -498,12 +498,12 @@
       <elementName>DriverInvSel</elementName>
       <elementAttributes>
         <entry>
-          <string>Bits</string>
-          <int>64</int>
-        </entry>
-        <entry>
           <string>rotation</string>
           <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>64</int>
         </entry>
       </elementAttributes>
       <pos x="760" y="280"/>
