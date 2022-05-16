@@ -719,7 +719,12 @@
     </visualElement>
     <visualElement>
       <elementName>Register.dig</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>TR</string>
+        </entry>
+      </elementAttributes>
       <pos x="-2300" y="-260"/>
     </visualElement>
     <visualElement>

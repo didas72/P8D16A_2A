@@ -1,15 +1,18 @@
 
-//JSR_Test asm
+//Tester asm
+
+//a is first
+//x is last
+//y is result
+//y = a * x
 
 #org @0x0200 
 main:
-	LDA $0xFA
-	JSR @ptr
-
-#org @0x0333
-hlt:
-	HLT
+	LDA $5 
+	LDX $10
+	LDY $0
 	
-#org @0x0480
-ptr:
-	#dw $0x0333
+mult:
+	LSRA
+	
+	
