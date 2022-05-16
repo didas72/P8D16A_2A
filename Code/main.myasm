@@ -1,12 +1,15 @@
 
-//JSR_imm_Test asm
+//JSR_Test asm
 
 #org @0x0200 
-
 main:
 	LDA $0xFA
-	JSR hlt
+	JSR @ptr
 
 #org @0x0333
 hlt:
 	HLT
+	
+#org @0x0480
+ptr:
+	#dw $0x0333
