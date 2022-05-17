@@ -1,18 +1,29 @@
 
 //Tester asm
 
-//a is first
-//x is last
-//y is result
-//y = a * x
-
 #org @0x0200 
 main:
-	LDA $5 
-	LDX $10
-	LDY $0
+	LDA $0x01
+	LDX $8
 	
-mult:
-	LSRA
+1bGrow:
+	LSLA
+	DEX
+	JZC 1bGrow
 	
+	LDA $0x11
+	LDX $4
 	
+synGrow:
+	LSLA
+	DEX
+	JZC synGrow
+	
+	LDX $40
+wait:
+	NOP
+	DEX
+	JZS 1bGrow
+	
+hlt:
+	HLT
