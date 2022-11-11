@@ -23,7 +23,7 @@ synGrow:
 wait:
 	NOP
 	DEX
-	JZS 1bGrow
+	//JZS 1bGrow
 	
 hlt:
 	HLT
